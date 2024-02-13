@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project IMC</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="src/js/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div class="top">
+                <h1>Calculadora IMC</h1>
+            </div>
+            <div class="bottom">
+                <form action="index.html" method="get">
+                    <div class="input-box">
+                        <input type="text" placeholder="Your Name..." name="name" id="name">
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="number" placeholder="Your Height..." name="height" id="height">
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="number" placeholder="Your Weight..." id="weight" name="weight">
+                    </div>
+                    
+                    <input type="submit" value="Calcular" id="send">
+                </form>
+
+                <div class="results">
+                    <p class="out"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

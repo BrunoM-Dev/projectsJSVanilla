@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.card {
+    background-color: rgb(5, 77, 247);
+    border-radius: 15px;
+    box-shadow: -1px 0px 20px black;
+    padding: 20px 0;
+    max-width: 413px;
+}
+
+.card .top {
+    padding: 10px 50px;
+    border-bottom: 5px solid black ;
+    color: white;
+    text-align: center;
+}
+
+.card .top {
+    font-size: 2rem;
+}
+
+.card .bottom {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.bottom .input-box {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.bottom .input-box label {
+    font-weight: 700;
+
+} 
+
+.bottom .input-box input {
+    font-size: 2rem;
+    padding: 15px 20px;
+    border: 0 ;
+    border-radius: 10px ;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.bottom #send {
+    margin-top: 15px;
+    width: 90%;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    background-color: rgb(0, 204, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.bottom #send:hover {
+    background-color: rgb(27, 255, 27);
+}
+
+.bottom .results {
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.results .out {
+    color: #000;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+    padding: 3px 10px;
+}
