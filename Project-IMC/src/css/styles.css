@@ -9,7 +9,8 @@ main {
     border-radius: 15px;
     box-shadow: -1px 0px 20px black;
     padding: 20px 0;
-    max-width: 413px;
+    max-width: 415px;
+    margin: 0 30px;
 }
 
 .card .top {
@@ -78,4 +79,16 @@ main {
     font-size: 2rem;
     text-align: left;
     padding: 3px 10px;
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .card {
+        max-width: 310px;
+    }
 }
